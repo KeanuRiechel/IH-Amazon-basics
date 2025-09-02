@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.container {
+    background-color: gray;
+    /*width: 500px;*/
+    height: 500px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    /*helps with shrinking adjustments of resolusion*/
+    flex-wrap: wrap;
+
+    .box {  
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .box1 {
+            background-color: red;
+    }
+    .box2 {
+        background-color: green;
+    }
+    .box3 {
+        background-color: blue;
+    }
+}
